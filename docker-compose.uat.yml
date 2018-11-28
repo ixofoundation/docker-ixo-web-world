@@ -1,0 +1,14 @@
+version: "2"
+services:
+  ixo-world:
+    environment:
+      - REACT_APP_BLOCKCHAIN_NODE_URL=http://blockchain_uat.ixo.world:46657
+      - REACT_APP_BLOCK_SYNC_URL=https://explorer_uat.ixo.world
+      - REACT_APP_DEFAULT_IXO_NODE_ORIGIN=https://app_uat.ixo.world
+      - REACT_APP_VIRAL_LOOPS_CAMPAIGN_ID=CvLyXeovTHHU0BYOm01ZxqLs-zI
+  ixo-web:
+    environment:
+      - REACT_APP_BLOCKCHAIN_NODE_URL=http://blockchain_uat.ixo.world:46657
+      - REACT_APP_BLOCK_SYNC_URL=https://explorer_uat.ixo.world
+      - REACT_APP_IXO_WORLD_ORIGIN=https://uat.ixo.world
+      - REACT_APP_KYC_LINK=https://staging.ixo.frctls.com
